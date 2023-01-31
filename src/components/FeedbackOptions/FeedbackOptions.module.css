@@ -1,0 +1,21 @@
+.ContainerBtn {
+  display: flex;
+  gap: 10px;
+}
+
+.Button {
+  width: 70px;
+  padding: 2px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 250ms;
+  text-transform: capitalize;
+}
+
+.Button:hover {
+  background-color: red;
+  border-color: transparent;
+  outline: none;
+}
